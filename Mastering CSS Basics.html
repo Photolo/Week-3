@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Basics</title>
+  <style>
+    /* Element Selector */
+    h1, h2, h3 {
+      font-size: 24px;
+    }
+
+    /* Class Selector */
+    .section {
+      background-color: lightblue;
+    }
+
+    /* ID Selector */
+    #unique {
+      border: 2px solid black;
+    }
+  </style>
+
+<title>Basic Styling Properties</title>
+<style>
+  /* Apply colors */
+  h2 {
+    color: #2c3e50;
+  }
+
+  p {
+    background-color: #ecf0f1;
+    color: #34495e;
+  }
+
+  /* Apply font styles */
+  h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* Text alignment */
+  .center-text {
+    text-align: center;
+  }
+
+  /* Spacing */
+  .spaced {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  /* Card Component */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+  }
+
+  .card h3 {
+    text-align: center;
+  }
+
+  .card p {
+    text-align: justify;
+  }
+
+</style>
+</head>
+<body>
+
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+
+  <div class="section">
+    <p>This section has a background color using a class selector.</p>
+  </div>
+
+  <div id="unique">
+    <p>This element has a border using an ID selector.</p>
+  </div>
+
+   <!-- Internal CSS -->
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      text-align: justify;
+      color: #555;
+    }
+    
+    a:hover {
+      color: red;
+    }
+  </style>
+
+  <!-- External CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Inline CSS -->
+  <h1 style="color: green;">This is an Inline Styled Heading</h1>
+
+  <h2>Internal CSS Styled Heading</h2>
+  <p>This paragraph is styled with internal CSS for text alignment and color.</p>
+
+  <a href="https://www.example.com">Visit Example.com</a>
+
+
+</body>
+</html>

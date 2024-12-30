@@ -1,0 +1,17 @@
+/* External CSS */
+
+/* Change background color of the webpage */
+body {
+    background-color: #e0f7fa;
+  }
+  
+  /* Style links with hover effect */
+  a {
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d32f2f;
+  }
+  
